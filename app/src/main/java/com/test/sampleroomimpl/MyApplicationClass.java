@@ -1,7 +1,7 @@
 package com.test.sampleroomimpl;
 
 import android.app.Application;
-import android.arch.persistence.room.Room;
+import androidx.room.Room;
 
 /**
  * Created by saket.shriwas on 11/8/2017.

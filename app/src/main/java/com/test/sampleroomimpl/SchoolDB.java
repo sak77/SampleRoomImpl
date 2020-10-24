@@ -1,7 +1,7 @@
 package com.test.sampleroomimpl;
 
-import android.arch.persistence.room.Database;
-import android.arch.persistence.room.RoomDatabase;
+import androidx.room.Database;
+import androidx.room.RoomDatabase;
 
 /**
  * Created by saket.shriwas on 11/8/2017.
