@@ -1,9 +1,8 @@
 package com.test.sampleroomimpl;
 
 import android.app.Activity;
-import android.arch.persistence.room.Room;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -12,6 +11,17 @@ import android.widget.Toast;
 
 import java.util.List;
 
+/**
+ * The app stores student info and displays the saved results in the logcat.
+ * A simple DB App that uses Room API to save and retrieve data.
+ * There are 3 main components of a Room DB -
+ *
+ * Entity class represents a table in the DB
+ * Dao is an interface which holds the different operations which can be performed for the entity
+ * An abstract class that extends RoomDatabase instance itself and holds reference to entities and corresponding dao.
+ *
+ * DB creation is expensive so it should be done only once for the whole app. Preferably at the application level.
+ */
 public class MainActivity extends AppCompatActivity {
 
     Activity currActivity;

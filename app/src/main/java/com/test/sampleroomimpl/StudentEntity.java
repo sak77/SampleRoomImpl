@@ -5,10 +5,10 @@ import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
 
 /**
- * Created by saket.shriwas on 11/8/2017.
+ * Created by saket.shriwas on 11/8/2017.*
+ * Each entity class represents a table in the DB. Each property of the class represents a column in the table.
  */
 
-//Each entity class represents a table in the DB. Each property of the class represents a column in the table.
 @Entity (tableName = "student_master")
 public class StudentEntity {
     //Each entity must have one primary key
